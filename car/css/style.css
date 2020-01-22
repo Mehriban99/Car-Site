@@ -1,0 +1,310 @@
+.top {
+  padding: 15px 0;
+  background-color: #232628;
+}
+.top .top-part {
+  display: inline;
+}
+.top .top-part .orange {
+  color: #FF5401;
+  margin-right: 10px;
+}
+.top .top-part i {
+  color: #848484;
+  font-size: 14px;
+  margin: 0 5px;
+}
+.top .top-part button {
+  color: #ffffff;
+  font-size: 14px;
+  padding: 5px 10px;
+  background-color: #ff5400;
+  border: none;
+  font-family: 'Open Sans', sans-serif;
+}
+.top .top-part .icons {
+  text-align: left;
+  padding: 0;
+}
+.top .top-part .icons i {
+  color: #848484;
+  font-size: 14px;
+  margin-left: 15px;
+  cursor: pointer;
+  transition: .3s all ease-in-out;
+}
+.top .top-part .icons i:hover {
+  color: #FF5401;
+}
+.top .top-part .toggle {
+  position: relative;
+  padding: 0;
+  border-right: .5px solid #848484;
+}
+.top .top-part .toggle span {
+  cursor: pointer;
+  color: #848484;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+.top .top-part .toggle span i {
+  font-size: 10px;
+}
+.top .top-part .toggle .toggle-alt {
+  text-align: left;
+  z-index: 99;
+  display: none;
+  background-color: #222222;
+  position: absolute;
+  top: 170%;
+  left: 10%;
+  min-width: 170px;
+  border-top: 2px solid #FF5401;
+}
+.top .top-part .toggle .toggle-alt a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px 0 10px 10px;
+  display: block;
+  border-bottom: .5px solid #848484;
+}
+.top .top-part .toggle2 {
+  position: relative;
+  padding: 0;
+  border-right: .5px solid #848484;
+}
+.top .top-part .toggle2 small {
+  cursor: pointer;
+  color: #848484;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+.top .top-part .toggle2 small i {
+  margin: 0 15px 0 5px;
+  font-size: 10px;
+}
+.top .top-part .toggle2 .toggle2-alt {
+  text-align: left;
+  z-index: 99;
+  display: none;
+  background-color: #222222;
+  position: absolute;
+  top: 170%;
+  left: 25%;
+  min-width: 170px;
+  border-top: 2px solid #FF5401;
+}
+.top .top-part .toggle2 .toggle2-alt a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px 0 10px 10px;
+  display: block;
+  border-bottom: .5px solid #848484;
+}
+
+.top-media {
+  display: none;
+  background-color: #232628;
+  padding: 15px 0;
+}
+.top-media .toggle-media {
+  position: relative;
+}
+.top-media .toggle-media small {
+  color: #848484;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  cursor: pointer;
+}
+.top-media .toggle-media small i {
+  margin: 0 15px 0 5px;
+  font-size: 10px;
+}
+.top-media .toggle-media i {
+  color: #FF5401;
+  font-size: 14px;
+  margin: 0 10px;
+}
+.top-media .toggle-media .toggle-alt-media {
+  display: none;
+  background-color: #222222;
+  position: absolute;
+  top: 170%;
+  left: 10%;
+  min-width: 170px;
+  border-top: 2px solid #FF5401;
+}
+.top-media .toggle-media .toggle-alt-media a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px 0 10px 10px;
+  display: block;
+  border-bottom: .5px solid #848484;
+}
+.top-media button {
+  color: #ffffff;
+  font-size: 14px;
+  padding: 5px 10px;
+  background-color: #ff5400;
+  border: none;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 0;
+}
+
+.header {
+  padding: 15px 0;
+}
+.header .header-right {
+  padding: 25px 0;
+}
+.header .header-right .dropdown {
+  display: inline-block;
+  padding: 0 20px;
+  position: relative;
+}
+.header .header-right .dropdown:hover .drop-content {
+  visibility: visible;
+  top: 200%;
+}
+.header .header-right .dropdown .dropbtn a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  transition: .3s all ease-in-out;
+}
+.header .header-right .dropdown .dropbtn a:hover {
+  color: #FF5401;
+}
+.header .header-right .dropdown .home a {
+  color: #ff5400;
+}
+.header .header-right .dropdown .cart a:hover {
+  color: black;
+}
+.header .header-right .dropdown .drop-content {
+  border-top: 2px solid #ff5400;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.05), -2px 0px 5px 1px rgba(0, 0, 0, 0.05);
+  background-color: white;
+  padding: 10px 20px;
+  min-width: 200px;
+  position: absolute;
+  top: 250%;
+  left: 0;
+  visibility: hidden;
+  transition: .3s all ease-in-out;
+}
+.header .header-right .dropdown .drop-content a {
+  display: block;
+  text-decoration: none;
+  border-bottom: 1px dashed #dfdfdf;
+  font-size: 14px;
+  color: black;
+  padding: 10px;
+}
+.header .header-right .dropdown .drop-content a:hover {
+  color: #FF5401;
+}
+
+.header-media {
+  display: none;
+  text-align: center;
+  padding: 20px 0 40px 0;
+}
+.header-media .box {
+  border: .5px solid #dfdfdf;
+}
+.header-media .box .slogan img {
+  padding-top: 20px;
+}
+.header-media .box .twopieces {
+  padding: 40px 0;
+}
+.header-media .box .twopieces .piece1 {
+  text-align: left;
+}
+.header-media .box .twopieces .piece1 a {
+  color: #232527;
+  font-size: 14px;
+  font-weight: bold;
+  border-right: .5px solid #dfdfdf;
+}
+.header-media .box .twopieces .piece1 a i {
+  font-size: 15px;
+  margin-right: 20px;
+  margin-left: 5px;
+}
+.header-media .box .twopieces .piece2 {
+  text-align: right;
+}
+.header-media .box .twopieces .piece2 .bar button {
+  color: white;
+  background-color: #ff5400;
+  border: none;
+  font-size: 20px;
+  padding: 0 10px;
+}
+.header-media .box .bar-alt {
+  padding: 0 20px;
+  display: none;
+}
+.header-media .box .bar-alt a {
+  text-decoration: none;
+  text-align: left;
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  background-color: #FF5401;
+  margin-bottom: 1px;
+  padding: 10px 0;
+  padding-left: 10px;
+}
+
+.contacts .greyareas {
+  background-color: #ebebeb;
+}
+.contacts .greyareas i {
+  font-size: 18px;
+  color: #ff5400;
+  margin-right: 5px;
+}
+.contacts .greyareas span {
+  font-size: 14px;
+  color: #848484;
+}
+.contacts .greyareas .search {
+  font-size: 18px;
+  color: #848484;
+}
+.contacts .greyareas input {
+  border: none;
+  background-color: #ebebeb;
+  padding: 15px 0;
+}
+
+@media (max-width: 576px) {
+  .top {
+    display: none;
+  }
+
+  .top-media {
+    display: block;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .header-media {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
